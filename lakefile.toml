@@ -1,0 +1,11 @@
+name = "wowii_198a"
+defaultTargets = ["WOW198a"]
+
+[[require]]
+name = "formal_conjectures"
+git = "https://github.com/google-deepmind/formal-conjectures"
+rev = "0771383387505c96d1b2f6a3d35088ad00892c5c"
+
+[[lean_lib]]
+name = "WOW198a"
+globs = ["WOW198a.+"]
